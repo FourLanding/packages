@@ -1,0 +1,35 @@
+{
+  "name": "ui-bootstrap4",
+  "filename": "docs/ui-bootstrap-3.0.6.min.js",
+  "description": "Native AngularJS bootstrap directives",
+  "repository": {
+    "type": "git",
+    "url": "https://morgul.github.io/ui-bootstrap4/"
+  },
+  "keywords": [
+    "angular",
+    "ui bootstrap 4",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/Morgul/ui-bootstrap4.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "docs/ui-bootstrap-3.0.6*.js"
+        ]
+      }
+    ],
+    "ignoreVersions": [
+      "push"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Christopher S. Case (Morgul)"
+    }
+  ]
+}
